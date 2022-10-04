@@ -2,10 +2,11 @@ package be.pxl.ja.robbery;
 
 public class Robbery {
     public static void main(String[] args) {
-        Knapsack knapsack = new Knapsack(35);
+        Knapsack knapsack = new Knapsack(100);
 
         Shop shop = new Shop();
         shop.add(new Product("stereo", 30, 3000));
+        shop.add(new Product("tafel", 70, 6000));
         shop.add(new Product("laptop", 20, 2000));
         shop.add(new Product("guitar", 15, 1500));
 
