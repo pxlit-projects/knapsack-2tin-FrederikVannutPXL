@@ -23,7 +23,7 @@ public class KnapsackTest {
         Assertions.assertEquals(2,knapsack.getItems().size());
     }
     @Test
-    public void addFunctionFails() throws KnapsackFullException {
+    public void addFunctionShouldNotAddNegativeValues() throws KnapsackFullException {
 
     }
 }
